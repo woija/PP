@@ -57,7 +57,7 @@ Agglomeration kan også øges ved bedre infrastruktur for på den måde at minds
 \section{Metode}
 \subsection{Målning af agglomertaionseffekter med effektiv tæthed }
 
-Denne parameter måler hele den økonomiske aktivitet, men tager ikke højde for lokaliseringsøkonomi og urbanisering. Selv om dette kan være interessant, så hævder Graham at dette ikke har den store effekt når man ønsker at esitmere eksternaliteten ved agglomerationsfordele.
+Graham introducere Denne parameter måler hele den økonomiske aktivitet, men tager ikke højde for lokaliseringsøkonomi og urbanisering. Selv om dette kan være interessant, så hævder Graham at dette ikke har den store effekt når man ønsker at esitmere eksternaliteten ved agglomerationsfordele.
 Graham har estimeret forskellige effekter ved urbanisering vs. clusters i et andet papir (Graham 2006) 
 
 Målet tager højde for nærhed og skalaen af økonomisk aktivitet 
@@ -68,10 +68,16 @@ Afstanden er udregnet ved brug af længdegrader og breddegrader for alle kommune
 $ED$ er en afstandsparameter, der måler, hvor meget arbejdskraft der der tilgængelig for den enkelte virksomhed, når der tages højde for den geografiske nærhed. Således er det i modellen muligt for en virksomhed i Lolland kommune at rekrutere arbejdskraft i Aalborg, men disse 
 
 \begin{equation}
-   ED^j_t = \frac{L^j_t}{\sqrt{\frac{A_j}{\pi}}} + \sum_{k=1}^{k \neq j} \frac{L^k_t}{d_{kj}}
+   ED^j_t = \frac{L^j_t}{Radius_j} + \sum_{k=1}^{k \neq j} \frac{L^k_t}{d_{kj}}, \quad Radius_j = \sqrt{\frac{A_j}{\pi}}
  \end{equation} 
- hvor $d_{kj}$ er afstanden mellem kommune $k$ og $j$. 
+ hvor $d_{kj}$ er afstanden mellem kommune $k$ og $j$. \newline
  
+ 
+For at finde afstandene mellem alle 98 kommuner i Danmark, benytter vi en såkaldt API. En API gør det muligt at automatisere forspørgelser til en server, i dette tilfælde til servicen Google Maps gennem programmet \textsf{R}. Ved at sende navnet på kommune returnere Google Maps en lokalation i form af koordinat i breddegrader og længdegrader. Vi antager at denne lokation er det approksimative økononomiske midtpunkt af en given kommune. \newline
+
+
+Dernæst udregner vi afstandene mellem to kommuners koordinater vha. Haversine-formel\footnote{Skriv en lille historie}. Haversine-formel beregner den korteste afstanden mellem to punkter på en sfære, hvilket netop giver fulgefulgt mellem to kommnuernes midtpunkter. Således kan vi udregne afstandende på kryds og tvær af alle kommuner i en $98\times 98$ symmetrisk matrice. 
+
 
 \section{Estimation}
 Vi ønsker at estimere følgende output dataset
