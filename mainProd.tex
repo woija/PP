@@ -40,6 +40,38 @@ Vi er interesserede i at undersøge, om der kunne være uudtømte effekt ved fra
 Der er store forskelle i timeproduktiviteten mellem region Sjælland og region Hovedstaden. En del af disse forskelle skyldes ganske givet branchesammensætning, hvor mere produktive brancher fylder mere i region Hovedstaden end de gør i region Sjælland. Men det kan ikke forklare det hele.
 
 Hvis man i stedet sammenligner samme brancher og dermed ser på, hvad produktivitetsforskellen måtte være her, da vil det være muligt at udrede om der gives urbane produktivitetseffekter. Dette kalder vi for \emph{urban learning}.
+\section{Agglomeration}
+
+Agglomeration og produktivitet
+Agglomerationsøkonomi betegner en positivt eskternalitet som opstår, når økonomiske agenter (personer og virksomheder) drager nytte af være fysisk tæt på hinanden. Teorisk kan denne effekt opstå af flere forskellige årsager. D
+
+Fælles brug af ( lave faste omkostninging) 
+
+Matching
+
+
+Vidensdeling 
+
+Agglomeration kan også øges ved bedre infrastruktur for på den måde at mindske den fysiske afstand mellem byer og mennesker
+
+\section{Metode}
+\subsection{Målning af agglomertaionseffekter med effektiv tæthed }
+
+Denne parameter måler hele den økonomiske aktivitet, men tager ikke højde for lokaliseringsøkonomi og urbanisering. Selv om dette kan være interessant, så hævder Graham at dette ikke har den store effekt når man ønsker at esitmere eksternaliteten ved agglomerationsfordele.
+Graham har estimeret forskellige effekter ved urbanisering vs. clusters i et andet papir (Graham 2006) 
+
+Målet tager højde for nærhed og skalaen af økonomisk aktivitet 
+Vi benytter medarbejder antal på kommuneniveau
+
+Afstanden er udregnet ved brug af længdegrader og breddegrader for alle kommuner. Hver kommune udgør et punkt på jorden, hvorefter man kan udregne afstanden mellem den og en anden kommune ved hjælp af geometri  
+
+$ED$ er en afstandsparameter, der måler, hvor meget arbejdskraft der der tilgængelig for den enkelte virksomhed, når der tages højde for den geografiske nærhed. Således er det i modellen muligt for en virksomhed i Lolland kommune at rekrutere arbejdskraft i Aalborg, men disse 
+
+\begin{equation}
+   ED^j_t = \frac{L^j_t}{\sqrt{\frac{A_j}{\pi}}} + \sum_{k=1}^{k \neq j} \frac{L^k_t}{d_{kj}}
+ \end{equation} 
+ hvor $d_{kj}$ er afstanden mellem kommune $k$ og $j$. 
+ 
 
 \section{Estimation}
 Vi ønsker at estimere følgende output dataset
@@ -49,12 +81,7 @@ Vi ønsker at estimere følgende output dataset
 hvor $i$ er virksomhedsindeks, $p$ kommuneindeks, $t$ angiver tidspunkt i år og $j$ angiver kommune. 
 
 
-$ED$ er en afstandsparameter, der måler, hvor meget arbejdskraft der der tilgængelig for den enkelte virksomhed, når der tages højde for den geografiske nærhed. Således er det i modellen muligt for en virksomhed i Lolland kommune at rekrutere arbejdskraft i Aalborg, men disse 
 
-\begin{equation}
- 	ED^j_t = \frac{L^j_t}{\sqrt{\frac{A_j}{\pi}}} + \sum_{k=1}^{k \neq j} \frac{L^k_t}{d_{kj}}
- \end{equation} 
- hvor $d_{kj}$ er afstanden mellem kommune $k$ og $j$. 
 
 \paragraph{Kvalitetsjusteret arbejdskraft}
 
