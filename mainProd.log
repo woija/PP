@@ -1,12 +1,4 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.14)  2 MAR 2017 14:31
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.17)  6 MAR 2017 10:51
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.14)  2 MAR 2017 14:31
->>>>>>> origin/master
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.17)  6 MAR 2017 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,93 +1016,45 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
 
-<<<<<<< Updated upstream
-(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
-(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./mainProd.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
 ) [1
 
-{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-(./mainProd.aux) ) 
-Here is how much of TeX's memory you used:
- 17131 strings out of 493013
- 314148 string characters out of 6136993
- 369588 words of memory out of 5000000
- 20314 multiletter control sequences out of 15000+600000
- 12821 words of font info for 38 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
-=======
-<<<<<<< HEAD
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main
-Prod.aux) ) 
+Prod.bbl)
+[2] (./mainProd.aux) ) 
 Here is how much of TeX's memory you used:
- 16856 strings out of 493089
- 312323 string characters out of 6134842
- 363164 words of memory out of 5000000
- 20003 multiletter control sequences out of 15000+600000
- 6931 words of font info for 19 fonts, out of 8000000 for 9000
+ 16919 strings out of 493089
+ 313241 string characters out of 6134842
+ 365164 words of memory out of 5000000
+ 20044 multiletter control sequences out of 15000+600000
+ 13597 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,5n,94p,409b,155s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-supe
-r-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx17
-28.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.p
-fb>
-Output written on mainProd.pdf (1 page, 51836 bytes).
-=======
-(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
-
-(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./mainProd.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [1
-
-{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-(./mainProd.aux) ) 
-Here is how much of TeX's memory you used:
- 17131 strings out of 493013
- 314148 string characters out of 6136993
- 369588 words of memory out of 5000000
- 20314 multiletter control sequences out of 15000+600000
- 12821 words of font info for 38 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
->>>>>>> Stashed changes
- 59i,5n,94p,411b,128s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super
--t1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2016/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2016/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1
-440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c
-:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/
-2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on mainProd.pdf (2 pages, 119456 bytes).
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
+ 59i,5n,94p,409b,126s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-su
+per/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on mainProd.pdf (2 pages, 139320 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
