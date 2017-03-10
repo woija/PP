@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.17)  10 MAR 2017 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.17)  10 MAR 2017 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -916,23 +916,27 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \FV@StepNumber=\count140
 \FV@OutFile=\write5
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
 \c@antag=\count141
 \c@teo=\count142
- (./mainProd.aux)
+
+(./mainProd.aux)
 \openout1 = `mainProd.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1030,79 +1034,60 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
 
- []
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 78.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2]
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+)
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 96.
 
- []
-
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 86.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-
-Overfull \hbox (14.86226pt too wide) in paragraph at lines 89--90
-[]\T1/cmr/m/n/12 Dernæst ud-reg-ner vi af-stan-de-ne mel-lem to kom-mu-ners ko-
-or-di-na-ter vha. Haversine-
- []
-
-[3] (./mainProd.bbl) [4] (./mainProd.aux) ) 
+) [3] [4]
+(./mainProd.bbl) [5] (./mainProd.aux) ) 
 Here is how much of TeX's memory you used:
- 17359 strings out of 493089
- 319248 string characters out of 6134842
- 378295 words of memory out of 5000000
- 20462 multiletter control sequences out of 15000+600000
+ 17383 strings out of 493089
+ 319786 string characters out of 6134842
+ 379324 words of memory out of 5000000
+ 20480 multiletter control sequences out of 15000+600000
  18361 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,8n,94p,743b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/cm-super/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
-m-super/sfrm0700.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
-super/sfrm0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-su
-per/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-supe
-r/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/
-sfss1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sf
-ti1200.pfb>
-Output written on mainProd.pdf (4 pages, 169409 bytes).
+ 59i,8n,94p,745b,181s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/font
+s/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/cm-super/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
+m-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
+super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-su
+per/sfrm0700.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-supe
+r/sfrm0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/
+sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sf
+rm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfss
+1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti12
+00.pfb>
+Output written on mainProd.pdf (5 pages, 171552 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

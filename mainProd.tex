@@ -11,6 +11,7 @@
 \usepackage{setspace}
 \usepackage{pgf,tikz}
 \usepackage{fancyvrb}
+\usepackage{parskip}
 %%************************************************************
 %%Teorem miljøer 
 \newtheorem{antag}{Antagelse}
@@ -64,14 +65,23 @@ Skriv lidt om lokaliseringsøkonomi og urbanisering, forskel mellem de to. Vores
 \section{Metode}
 \subsection{Målning af agglomertaionseffekter med effektiv tæthed }
 
-Der findes flere fremgangsmetode når agglomerationseffetker skal estimeres. Fælles metoderne er, at de skal repræsentere geofrafiske skala af økonomien. I en meta-analysen \cite{melo2009meta} gennemgår forfattterne evolutionen  
+Der findes flere fremgangsmetode når agglomerationseffetker skal estimeres. Fælles for metoderne er at danne et mål som skal repræsentere skala af økonomiske aktivitet i en geografisk kontekst,indgå som variable i estimationen af produktiviteten og dermed modellere eksternaliteten ved agglomeration. I meta-analysen \cite{melo2009meta} gennemgår forfattterne evolutionen af disse forskellige metoder. De tidligeste eksempler fokuserede udelukkende lokale byeffekt og berorede sig ofte på indbyggerantal. Problemet ved disse mål er, at indbyggerantal i et givent område ikke alene er et udtryk for den stedsbestemte økonomiske aktivitet, men indbyggerantallet vil også være et udtryk for bystørrelser.
 
-Graham introducere Denne parameter måler hele den økonomiske aktivitet, men tager ikke højde for lokaliseringsøkonomi og urbanisering. Selv om dette kan være interessant, så hævder Graham at dette ikke har den store effekt når man ønsker at esitmere eksternaliteten ved agglomerationsfordele.
-Graham har estimeret forskellige effekter ved urbanisering vs. clusters i et andet papir (Graham 2006) \newline
+Sidenhen blev beskæftigelsestætheden indtroduceret. Fordelen ved dette mål er at den lokale beskæftigelse mere isoleret udtrykker den økonomiske aktivitet, og derved er et bedre mål for produktivitetsfordele. Tæthedsaspektet gør også målet robust overfor størrelsesforskellige områder imellem. 
 
-Målet tager højde for skalaen af økonomisk aktivitet og nærhed nærhed \newline
+Fælles for begge mål er, at der implicit i målene er en antagelse om afgrænsede markeder, områder imellem. Dette betyder, at områdernes relative afstand ingen betydning har, og områderne kan ikke drage nytte af hinandensmarkedede, og derved opnå spillover effekter. Spillover effekte i form af større arbejdsmarkeder mht. matching, vidensdeling eller specialisering. For både at tage højde for skalaen af økonomisk aktivitet og nærheden af andre lokaløkonomier eller markeder udviklede nogle studier en anden metode.  
 
-Til skalaen af økonomiske aktivitet benytter vi antal beskæftigede lønmodtagere efter arbejdssted på kommuneniveau. For at medtage intensiteten på tværs af kommunerne, sætter vi antal beskæftigede i forhold til arealet af kommunerne. Fordelen ved at benytte beskæftigelsestæthed istedet for indbyggertætheden er: 1) antal beskæftigede fanger bedre produktivitetsfordelen ved geografiske konsentreret økonomisk aktivitet, mens at indbygger også vil agere som proxy for urbanisering og eventuelle traffik omkostninger. Ved at benytte tætheden, altså antal eskæftigede lønmodtagere forhold til areal, gør målet robust overfor forskellige kommune størrelser \cite[pp. 335.]{melo2009meta}.\newline
+Graham introducere Denne parameter måler hele den økonomiske aktivitet, men tager ikke højde for lokaliserings- og urbaniseringsøkonomi. Selv om dette kan være interessant, så hævder Graham at dette ikke har den store effekt når man ønsker at esitmere eksternaliteten ved agglomerationsfordele. Forskellen på lokaliseringsøkonomi og ur
+Graham har estimeret forskellige effekter ved urbanisering vs. clusters i et andet papir (Graham 2006) 
+
+ 
+ Lokaliseringsøkonomi
+• Vidensspillovers baseret på ensartet produktion
+– Klynger, ældre industrier – Urbaniseringsøkonomi
+• Videsspillovers baseret på diversitet
+– Massen af forskellighed, nyere industrier
+
+Til skalaen af økonomiske aktivitet benytter vi antal beskæftigede lønmodtagere efter arbejdssted på kommuneniveau. For at medtage intensiteten på tværs af kommunerne, sætter vi antal beskæftigede i forhold til arealet af kommunerne. Fordelen ved at benytte beskæftigelsestæthed istedet for indbyggertætheden er: 1) antal beskæftigede fanger bedre produktivitetsfordelen ved geografiske konsentreret økonomisk aktivitet, mens at indbygger også vil agere som proxy for urbanisering og eventuelle traffik omkostninger. Ved at benytte tætheden, altså antal eskæftigede lønmodtagere forhold til areal, gør målet robust overfor forskellige kommune størrelser \cite[pp. 335.]{melo2009meta}.
 
   
 
@@ -80,10 +90,10 @@ $ED$ er en afstandsparameter, der måler, hvor meget arbejdskraft der der tilgæ
 \begin{equation}
    ED^j_t = \frac{L^j_t}{Radius_j} + \sum_{k=1}^{k \neq j} \frac{L^k_t}{d_{kj}}, \quad Radius_j = \sqrt{\frac{A_j}{\pi}}
  \end{equation} 
- hvor $d_{kj}$ er afstanden mellem kommune $k$ og $j$. \newline
+ hvor $d_{kj}$ er afstanden mellem kommune $k$ og $j$. 
  
  
-For at finde afstandene mellem alle 98 kommuner i Danmark, benytter vi en såkaldt API. En API gør det muligt at automatisere forspørgelser til en server, i dette tilfælde til servicen Google Maps gennem programmet \textsf{R}. Ved at sende navnet på kommune returnere Google Maps en lokalation i form af koordinat i breddegrader og længdegrader. Vi antager at denne lokation er det approksimative økononomiske midtpunkt af en given kommune. \newline
+For at finde afstandene mellem alle 98 kommuner i Danmark, benytter vi en såkaldt API. En API gør det muligt at automatisere forspørgelser til en server, i dette tilfælde til servicen Google Maps gennem programmet \textsf{R}. Ved at sende navnet på kommune returnere Google Maps en lokalation i form af koordinat i breddegrader og længdegrader. Vi antager at denne lokation er det approksimative økononomiske midtpunkt af en given kommune. 
 
 
 Dernæst udregner vi afstandene mellem to kommuners koordinater vha. Haversine-formel\footnote{Skriv en lille historie}. Haversine-formel beregner den korteste afstanden mellem to punkter på en sfære, hvilket netop giver fulgefulgt mellem to kommnuernes midtpunkter. Således kan vi udregne afstandende på kryds og tvær af alle kommuner i en $98\times 98$ symmetrisk matrice. 
