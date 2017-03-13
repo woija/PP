@@ -1,0 +1,87 @@
+\section{Metode}
+For at kunne måle agglomerationens effekt for danske virksomheder estimerer vi en \emph{agglomerationselasticitet} ved at estimere en produktionsfunktion for virksomheder i private byerhverv. Derved er det muligt at vurdere indenfor hvilke områder agglomeration betyder mest relativt til andre brancher -- og i givet fald hvor meget. På den måde kan vi estimere, hvor meget agglomeration betyder for virksomhedernes værditilvækst, eller med andre ord: Hvor meget af den generede værditilvækst i danske virksomheder skyldes arbejdskraften efficiente densitet?
+\section{Estimation af produktionsfunktionen}
+For at kunne svare på dette har vi estimeret en produktionsfunktion for virksomhederne -- fordelt efter forskellige branchegrupperinger. Følgende afsnit forklarer metoden, vi har valgt til at bestemme effekten af agglomeration.
+
+Vi antager, at virksomhedernes produktion følger en Cobb-Douglas funktion. 
+\begin{equation}
+	Y_{it} = A_t K_{it}^{\beta_k} L_{it}^{\beta_l} 
+	ED_{it}^{\beta_{ed}}  
+\end{equation}
+$ED_{it}$ er arbejdskraftens \emph{efficiente densitet}, der for den enkelte virksomhed indgår som en eksternalitet.
+Transformeret til logaritmisk form er virksomhedens produktion derfor givet ved følgende relation:
+\begin{equation}
+	y_{it} = \alpha_t + \beta_l l_{it} + \beta_{ed} ed_{it} + \beta_{k} k_{it} + \epsilon_{it}
+	\label{eq:prodfunk_ED_01}
+\end{equation}
+hvor $y$ er virksomhedens værditilvækst, $l_{it}$ er virksomhedens input af arbejdskraft og $k_{it}$ er virksomhedens input af kapital. Målet er således at estimere $\beta_{ed}$, der er vores agglomerationselasticitet.
+
+\textbf{Hvis vi estimerede (\ref{eq:prodfunk_ED_01}) ved hjælp af OLS, skulle vi for at få et konsistent resultat kræve, at virksomhedernes brug af fx arbejdskraft skulle være uafhængigt af hinanden}. Men da vi må formode, at virksomheder med høj produktivitet anvender mere arbejdskraft og kapital end andre, siger vi derfor, at modellen udtrykt ved (\ref{eq:prodfunk_ED_01}) har et endogenitetsproblem.
+
+Litteraturen fremstiller flere metoder til at korrigere for dette; vi har valgt at følge Levihnson og Petrins metode \cite{levinsohn2003estimating}, der benytter virksomhedernes forbrug af mellemvarer i produktionen til at kontrollere for endogenitetsproblemet. I vores model er metoden udvidet med en parameter for agglomerationen, nemlig $\beta_{ed} ed_{it}$.
+
+Levihnson og Petrins metode foregår i to trin \cite[p. 115ff.]{petrin2004production}. Første trin består i af finde et konsistent estimat for de frie variable i modellen, her $\beta_l$ og $\beta_{ED}$. Modellen er følgende\footnote{Fodtegnet $i$ er udeladt af hensyn til overskuelighed, selvom estimationen foretages på paneldata.}.
+%%%%%%%%%%%%%%%%%
+\begin{equation}
+	y_{t} = \beta_0 + \beta_l l_t+ \beta_{ed} ed_t +
+	\beta_k k_t + \beta_t m_t + \omega_t + \eta_t
+	\label{LP_01}
+\end{equation}
+%**********************************************
+hvor $m_t$ er virksomhedernes forbrug af mellemvarer. Modellens residualer deles på i to dele, $\omega_t + \eta_t$. $\eta_t$ angiver den del af residualet, der er uafhægigt af kapital, mens $\omega_t$ er den del af residualet, der skaber det ovennævnte endogenitetsproblem. Det betyder, at metodens grundlæggende formål er, at korrigere for det bias, der opstår gennem den endogene del af residualet, 
+$\omega_t$.
+
+Levihnson og Petrin foreslår brug af mellemvarer som proxyvariabel for det ukontrollerede produktivitetsshock i $\omega_t$. Intuitionen bag dette resultat er, at for enhver given mængde af kapital i virksomheden, vil virksomheder med høj produktivitet skrue op for produktionen -- og dermed også for mellemvareforbruget, fx energi. Denne mellemregning er en måde at korrigere for effekten af $\omega_t$ på kapital, hvis vi kan påvise en markant positiv sammenhæng mellem $\omega_t$ og virksomhedernes forbrug af mellemvarer.
+
+Levinsohn og Petrin antager, at $m_t$ er en funktion af kapital og $\omega_t$, $m_t = m(k_t , \omega_t)$, og viser, at denne funktion under visse betingelser er monotont stigende i $\omega_t$ \cite[322-323]{levinsohn2003estimating}. Når dette er tilfældet, kan funktionen inverteres, og det uobserverede led $\omega_t$ kan udtrykkes som en funktion af to observerede størrelse, kapital og mellemvarer.
+\begin{equation}
+	\omega_t = \omega(k_t , m_t)
+	\label{eq:InverseOmega}
+\end{equation}
+
+\begin{align}
+	y_t &= \beta_l l_t + \beta_{ed} ED_t + \phi ( k_t , m_t)
+	\label{eq:LPProdFunkt02}\\
+	\phi ( k_t , m_t) &\equiv \beta_0 + \beta_k + \omega (k_t , m_t) \notag
+\end{align}
+Som approksimering af $\omega ( k_t , m_t)$ benytter Levinsohn og Petrin sig af et 3. grads polynomium interaktionsled mellem kapital og mellemvarer. Det indsættes i (\ref{eq:LPProdFunkt02}), hvormed $\beta_l$ og $\beta_{ed}$ kan estimeres nonlineært.
+\begin{align}
+	y_t &= \beta_l l_t + \beta_{ed} ED_t + \delta_0 + \sum_{i=0}^{3} \sum_{j=0}^{3-i} d_{ij} k_t^i m_t^j 
+	\label{eq:LPSaturatedProdFunction}
+\end{align}
+Ved estimering af (\ref{eq:LPSaturatedProdFunction}) ved brug af OLS har vi estimatorer for $\beta_l$ og $\beta_{ed}$, der er konsistente. Bemærk at $\delta_0 \neq \beta_0$ da den sidste gemmer sig i interaktionen i 3. gradspolynomiet i (\ref{eq:LPSaturatedProdFunction}). Dette afslutter det første trin.
+
+\textbf{Formålet med det andet trin er at finde et konsistent estimat for $\beta_k$.} 
+Ved at benytte $\beta_l$ og $\beta_{ed}$ fra estimering af (\ref{eq:LPSaturatedProdFunction}), kan vi finde et estimat for $\hat{\phi}$ på følgende måde
+\begin{align}
+	\hat{\phi} &= \hat{v_t} - \hat{\beta_l} l_t - \hat{\beta_{ed}} ed_t \\
+	&= \hat{\delta_0} + \sum_{i=0}^{3} \sum_{j=0}^{3-i} \hat{d_{ij}} k_t^i m_t^j - \hat{\beta_l} l_t - \hat{\beta_{ed}} ed_t 
+	\label{eq:LPfindenPhi}
+\end{align}
+Fra (\ref{eq:LPfindenPhi}) kan vi dermed finde et estimat for $\omega_t$:
+\begin{equation}
+	\hat{\omega} = \hat{\phi} - \beta^*_k k_t
+	\label{eq:LPFindenOmega}
+\end{equation}
+hvor $\beta_k^*$ er et initialt gæt for $\beta_k$. Ifølge Levihnson og Petrin kan det antages, at $\omega_t$ følger en markov proces, som de nonlinenært estimere ved hjælp af et 3. grads polynomium.
+\begin{equation}
+ 	\hat{E[w_t | w_{t-1}]} = \gamma_0 + \gamma_1 \omega_{t-1} + \gamma_2 \omega^2_{t-1} + \gamma_3 \omega^3_{t-1} + \epsilon_t
+ 	\label{eq:markovOmega}
+ \end{equation} 
+Et estimat for $\beta_k$ findes nu gennem en golden section optimerings rutine på følgende kvadrat ved at minimere følgende kvadrat:
+\begin{equation}
+	\min_{\beta^*_k} 
+	\left( 
+		v_t - \hat{\beta_l} l_t - \hat{\beta_{ed}} ed_t 
+		- \beta^*_k k_t - \hat{E[w_t | w_{t-1}]} 
+	\right)^2
+	\label{eq:LPOptimization}
+\end{equation}
+$\hat{\beta_k}$ estimeres iterativt igennem (\ref{eq:LPFindenOmega}) og (\ref{eq:markovOmega}), der bidrager til (\ref{eq:LPOptimization}). Standardafvigelser og varians-kovariansmatricen benyttet til Wald-test for konstant skalaafkast findes bed hjælp af bootstrapping.
+
+\paragraph{Bootstrapping}
+Da (\ref{eq:LPOptimization}) skaber et estimat af $\hat{\beta_k}$ på baggrund af en kompliceret optimerings procedure, er det derfor ikke muligt at udregne analytiske værdier for standardafvigelserne. Derfor benytter Levinsohn og Petrin sig af bootstrapping, der er en såkaldt \emph{resampling} metode.
+
+Bootstrapping udregner parameterestimaterne for modellen ud fra en stikprøve med tilbagelægning på samme størrelse som datasættet. Når dette gøres tilpas mange gange, kan standardafvigelserne for de disse estimater, der laves på baggrund af de gentagne stikprøver, benyttes som konsistente standardafvigelser for vores variable i modellen.
+
+Da vores model er kompliceret og i nogen grad komputeringstung har vi valgt at benyttes 50 iterationer til at konstruere standardafvigelserne præsenteret i tabel ???.

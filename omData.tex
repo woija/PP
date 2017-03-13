@@ -1,0 +1,31 @@
+\section{Beskrivelse af datakvalitet}
+\paragraph{Kvalitetskorrigeret arbejdskraft}
+Når virksomhedernes anvendelse af arbejdskraft indgår i produktionen, er det i et produktivitetsøjemed vigtigt at tage højde for, at medarbejderens produkvitet afhænger af især uddannelse og erfaring.
+
+Derfor har vi et kvalitetskorrigeret arbejdsindeks som arbejdsinput i produktionsfunktionen \cite[s. 5]{dors2010baggrund}. Denne tager højde for, hvor meget den enkelte virksomhed inddrager af arbejdskraft, så der tages højde for medarbejderens uddannelse og erfaring. Uddannelsesniveau og erfaring kombineres i Danmark Statistiks registre med indberettede regnskabsdata så der for den enkelte virksomhed kan skabes et kvalitetskorrigeret arbejdsinput.
+
+Kvalitet følger DØRS definition og udregnes som \cite[s. 5]{dors2010baggrund}:
+\begin{equation}
+	\bar{L_{it}} = 
+	L_{i0t} + \sum_{f=1}^{F-1} \frac{\bar{w}_{fgt}}{\bar{w}_{0gt}} 
+	L_{ift}
+\end{equation}
+$f$ er her en gruppering af beskæftigelsen efter kvalitet. Fx er $f=0$ en ufaglært medarbejder med under 5 års erfaring, $f=1$ er en ufaglært medarbejder med 5-10 års erfaring osv. CHECK!!!!!!
+$L_{ift}$ er så antallet af årsværk i virksomheder med kvalitet $f$. Dermed er det muligt at korrigere for kvaliteten af arbejdskraften, så en times præsteret nu tæller forskelligt alt efter produktivteten.
+
+I produktionsfunktionen fra (\ref{eq:LPProdFunkt02}) indgår den kvalitetskorrigerede arbejdskraft som $l_{it} = \log(L_{it})$.  
+
+\section{Beskrivelse af data}
+Vi har benyttet Danmarks Statistiks virksomhedsregister som baggrund for estimeringen. Data tilgængeligt for os er i årene 2008 -- 2013, hvori vi har 45.751 observationer fordelt på ca. 17.000 cvr numre. Datasættet er ikke et fuldt panel. For en beskrivelse af agglomerationsvariablen, jf. kapital ???.
+
+Virksomhederne er kun indenfor branche i private byerhverv, hvilket vil sige branchegrupperne Industri, Bygge og anlæg, Transport, Hoteller og restauranter, Handel, Information og Kommunikation, Videnservice og Operationel service.
+
+Der er lavet visse restrektioner på registrene. Blandt andet er virksomheder med færre end fem ansatte. 
+
+\paragraph{Estimation af kapitalapparat} 
+I estimationen af kapitalapparatet har vi anvendt dit og dat som du bør skrive mere om.
+
+\paragraph{Antagelser for konsistent estimering af ed}
+%%Det jeg vil skrive nu
+% - Bootstrapping
+% - Bootstrapping
