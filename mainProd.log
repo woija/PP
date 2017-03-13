@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.17)  12 MAR 2017 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.17)  13 MAR 2017 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,56 +1032,56 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-ABD: EveryShipout initializing macros [1
+ABD: EveryShipout initializing macros (./agglointro.tex) [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 
 <del1.pdf, id=20, 845.1575pt x 597.23125pt>
 File: del1.pdf Graphic file (type pdf)
  <use del1.pdf>
-Package pdftex.def Info: del1.pdf used on input line 93.
+Package pdftex.def Info: del1.pdf used on input line 85.
 (pdftex.def)             Requested size: 204.9466pt x 144.82384pt.
 
 <del2.pdf, id=21, 845.1575pt x 597.23125pt>
 File: del2.pdf Graphic file (type pdf)
  <use del2.pdf>
-Package pdftex.def Info: del2.pdf used on input line 98.
+Package pdftex.def Info: del2.pdf used on input line 90.
 (pdftex.def)             Requested size: 204.9466pt x 144.82384pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 109.
+LaTeX Font Info:    Try loading font information for U+msa on input line 101.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 109.
+LaTeX Font Info:    Try loading font information for U+msb on input line 101.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [4] [5 <./del1.pdf> <./del2.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 119.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 111.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [6] <andring.pdf, id=93, 845.1575pt x 597.23125pt>
 File: andring.pdf Graphic file (type pdf)
  <use andring.pdf>
-Package pdftex.def Info: andring.pdf used on input line 129.
+Package pdftex.def Info: andring.pdf used on input line 121.
 (pdftex.def)             Requested size: 418.25368pt x 295.56203pt.
  [7 <./andring.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 134.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
 
 [8] (./mainProd.bbl) [9] (./mainProd.aux) ) 
 Here is how much of TeX's memory you used:
- 17424 strings out of 493089
- 320404 string characters out of 6134842
+ 17427 strings out of 493089
+ 320444 string characters out of 6134842
  381380 words of memory out of 5000000
  20517 multiletter control sequences out of 15000+600000
  19130 words of font info for 52 fonts, out of 8000000 for 9000
