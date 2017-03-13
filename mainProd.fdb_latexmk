@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex mainProd"] 1489399378 "mainProd.aux" "mainProd.bbl" "mainProd" 1489399381
+["bibtex mainProd"] 1489399378 "mainProd.aux" "mainProd.bbl" "mainProd" 1489399540
   "c:/texlive/2016/texmf-dist/bibtex/bst/base/plain.bst" 1473879301 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "mainProd.aux" 1489399380 3858 a0ea2542d999557d13003b6cd052f372 ""
   "mainProd.bcf" 0 -1 0 ""
@@ -7,7 +7,7 @@
   (generated)
   "mainProd.bbl"
   "mainProd.blg"
-["pdflatex"] 1489399378 "mainProd.tex" "mainProd.pdf" "mainProd" 1489399381
+["pdflatex"] 1489399378 "mainProd.tex" "mainProd.pdf" "mainProd" 1489399540
   "LevPetMetode.tex" 1489398653 7915 3e85acd7ebb9e216630b4d887a7e447d ""
   "agglointro.tex" 1489396983 538 1c96812d710d7f3385712ad7ee099fef ""
   "andring.pdf" 1489396903 264078 a2e7006f92d864d610143c0bd00e6244 ""
@@ -259,6 +259,6 @@
   "tabel3.tex" 1489255833 2346 3b24cd4ccb227e36201375ec770ca051 ""
   (generated)
   "mainProd.log"
-  "mainProd.toc"
   "mainProd.pdf"
   "mainProd.aux"
+  "mainProd.toc"
