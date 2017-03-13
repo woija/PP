@@ -1,6 +1,6 @@
-\subsection{Metode}
+\subsection{Estimation af produktionsfunktionen}
 For at kunne måle agglomerationens effekt for danske virksomheder estimerer vi en \emph{agglomerationselasticitet} ved at estimere en produktionsfunktion for virksomheder i private byerhverv. Derved er det muligt at vurdere indenfor hvilke områder agglomeration betyder mest relativt til andre brancher -- og i givet fald hvor meget. På den måde kan vi estimere, hvor meget agglomeration betyder for virksomhedernes værditilvækst, eller med andre ord: Hvor meget af den generede værditilvækst i danske virksomheder skyldes arbejdskraften efficiente densitet?
-\section{Estimation af produktionsfunktionen}
+
 For at kunne svare på dette har vi estimeret en produktionsfunktion for virksomhederne -- fordelt efter forskellige branchegrupperinger. Følgende afsnit forklarer metoden, vi har valgt til at bestemme effekten af agglomeration.
 
 Vi antager, at virksomhedernes produktion følger en Cobb-Douglas funktion. 
@@ -79,7 +79,7 @@ Et estimat for $\beta_k$ findes nu gennem en golden section optimerings rutine p
 \end{equation}
 $\hat{\beta_k}$ estimeres iterativt igennem (\ref{eq:LPFindenOmega}) og (\ref{eq:markovOmega}), der bidrager til (\ref{eq:LPOptimization}). Standardafvigelser og varians-kovariansmatricen benyttet til Wald-test for konstant skalaafkast findes bed hjælp af bootstrapping.
 
-\paragraph{Bootstrapping}
+\subsection{Bootstrapping}
 Da (\ref{eq:LPOptimization}) skaber et estimat af $\hat{\beta_k}$ på baggrund af en kompliceret optimerings procedure, er det derfor ikke muligt at udregne analytiske værdier for standardafvigelserne. Derfor benytter Levinsohn og Petrin sig af bootstrapping, der er en såkaldt \emph{resampling} metode.
 
 Bootstrapping udregner parameterestimaterne for modellen ud fra en stikprøve med tilbagelægning på samme størrelse som datasættet. Når dette gøres tilpas mange gange, kan standardafvigelserne for de disse estimater, der laves på baggrund af de gentagne stikprøver, benyttes som konsistente standardafvigelser for vores variable i modellen.
