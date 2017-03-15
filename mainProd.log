@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.14)  13 MAR 2017 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.14)  15 MAR 2017 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1424,18 +1424,18 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 )) (./mainProd.aux)
 \openout1 = `mainProd.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1619,12 +1619,12 @@ File: siunitx-abbreviations.cfg 2016/09/02 v2.6s siunitx: Abbreviated units
 
 ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count267
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1645,16 +1645,16 @@ ex [2]) [3] [4]
 [5] <del1.pdf, id=29, 845.1575pt x 597.23125pt>
 File: del1.pdf Graphic file (type pdf)
  <use del1.pdf>
-Package pdftex.def Info: del1.pdf used on input line 106.
+Package pdftex.def Info: del1.pdf used on input line 107.
 (pdftex.def)             Requested size: 204.9466pt x 144.82384pt.
 
 <del2.pdf, id=30, 845.1575pt x 597.23125pt>
 File: del2.pdf Graphic file (type pdf)
  <use del2.pdf>
-Package pdftex.def Info: del2.pdf used on input line 111.
+Package pdftex.def Info: del2.pdf used on input line 112.
 (pdftex.def)             Requested size: 204.9466pt x 144.82384pt.
  [6 <./del1.pdf> <./del2.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 132.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 133.
 
  (c:/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1662,51 +1662,50 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 <andring.pdf, id=100, 845.1575pt x 597.23125pt>
 File: andring.pdf Graphic file (type pdf)
  <use andring.pdf>
-Package pdftex.def Info: andring.pdf used on input line 142.
+Package pdftex.def Info: andring.pdf used on input line 143.
 (pdftex.def)             Requested size: 418.25368pt x 295.56203pt.
 
 (./LevPetMetode.tex [9 <./andring.pdf>] [10] [11] [12]) (./omData.tex [13])
-(./tabel1.tex
-Overfull \hbox (29.53203pt too wide) in paragraph at lines 5--26
+(./tab1.tex) (./tab2.tex) (./tab3.tex
+Overfull \hbox (65.16672pt too wide) in paragraph at lines 5--23
  [][] 
  []
 
-) (./tabel2.tex) (./tabel3.tex) [14] [15] (./mainProd.bbl [16]) [17]
-(./mainProd.aux) ) 
+) (./tab4.tex) [14] (./mainProd.bbl [15] [16]) [17] [18] (./mainProd.aux) ) 
 Here is how much of TeX's memory you used:
- 30124 strings out of 493013
- 612845 string characters out of 6136993
- 661021 words of memory out of 5000000
- 33142 multiletter control sequences out of 15000+600000
- 22717 words of font info for 65 fonts, out of 8000000 for 9000
+ 30128 strings out of 493013
+ 612863 string characters out of 6136993
+ 668035 words of memory out of 5000000
+ 33143 multiletter control sequences out of 15000+600000
+ 22637 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,11n,94p,10382b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super
--t1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c
-:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2016/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/fon
-ts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/p
-ublic/cm-super/sfbx1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-s
-uper/sfbx1728.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0
-600.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c
-:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/
-2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2016/texmf
--dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2016/texmf-dist/font
-s/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
-blic/cm-super/sfss1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-su
-per/sfti1200.pfb>
-Output written on mainProd.pdf (17 pages, 1050846 bytes).
+ 59i,11n,94p,10382b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/
+texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c
+:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-sup
+er/sfbx1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx144
+0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/
+texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/20
+16/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2016/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/public/cm-super/sfrm1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-supe
+r/sfss1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1000
+.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on mainProd.pdf (18 pages, 1032495 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
+ 245 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

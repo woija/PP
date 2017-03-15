@@ -15,8 +15,8 @@
 \usepackage{fancyvrb}
 \usepackage{floatrow}
 \usepackage{parskip}
-\DeclareFloatFont{tiny}{\tiny}% "scriptsize" is defined by floatrow, "tiny" not
-\floatsetup[table]{font=tiny}
+\DeclareFloatFont{footysize}{\footnotesize}% "scriptsize" is defined by floatrow, "tiny" not
+\floatsetup[table]{font=footysize}
 %%************************************************************
 %%Teorem miljøer 
 \newtheorem{antag}{Antagelse}
@@ -25,6 +25,7 @@
 %%************************************************************
 %%Andet setup
 \onehalfspacing
+\setlength\heavyrulewidth{0.40ex}
 %%************************************************************
 %% Makro
 \newcommand{\indep}{\perp\!\!\!\perp}
@@ -156,10 +157,10 @@ Hvis vi betragter ændringen i effektiv tæthed fra 2008 og 2015 tegner der sig 
 
 \input{LevPetMetode}
 \input{omData}
-\input{tabel1}
-\input{tabel2}
-\input{tabel3}
-
+\input{tab1}
+\input{tab2}
+\input{tab3}
+\input{tab4}
 %%****************** muligvis skrald
 \section{Estimation}
 Vi ønsker at estimere følgende output dataset
