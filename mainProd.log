@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.17)  13 MAR 2017 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.17)  13 MAR 2017 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1361,7 +1361,8 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
 \arrowsize=\dimen284
-)) (./mainProd.aux)
+))
+No file mainProd.aux.
 \openout1 = `mainProd.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -1376,7 +1377,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
-
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count195
@@ -1580,47 +1580,149 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./aggl
 ointro.tex
-[2]) [3]
+[2])
+
+LaTeX Warning: Citation `sorensen2014infrastruktur' on page 3 undefined on inpu
+t line 71.
+
+
+LaTeX Warning: Citation `melo2009meta' on page 3 undefined on input line 74.
+
+[3]
+
+LaTeX Warning: Citation `sorensen2014infrastruktur' on page 4 undefined on inpu
+t line 77.
+
 
 LaTeX Warning: Citation `klimonteconomic' on page 4 undefined on input line 77.
 
 
-[4] [5] <del1.pdf, id=29, 845.1575pt x 597.23125pt>
+
+LaTeX Warning: Citation `melo2009meta' on page 4 undefined on input line 91.
+
+[4] [5]
+
+LaTeX Warning: Citation `graham2007agglomeration' on page 6 undefined on input 
+line 97.
+
+<del1.pdf, id=29, 845.1575pt x 597.23125pt>
 File: del1.pdf Graphic file (type pdf)
  <use del1.pdf>
-Package pdftex.def Info: del1.pdf used on input line 110.
+Package pdftex.def Info: del1.pdf used on input line 106.
 (pdftex.def)             Requested size: 204.9466pt x 144.82384pt.
 
 <del2.pdf, id=30, 845.1575pt x 597.23125pt>
 File: del2.pdf Graphic file (type pdf)
  <use del2.pdf>
-Package pdftex.def Info: del2.pdf used on input line 115.
+Package pdftex.def Info: del2.pdf used on input line 111.
 (pdftex.def)             Requested size: 204.9466pt x 144.82384pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation `graham2007agglomeration' on page 6 undefined on input 
+line 122.
 
-[6] [7 <./del1.pdf> <./del2.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 136.
+
+LaTeX Warning: Reference `fig:metode' on page 6 undefined on input line 122.
+
+[6 <./del1.pdf> <./del2.pdf>]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 132.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [8]
-<andring.pdf, id=100, 845.1575pt x 597.23125pt>
+) [7]
+
+LaTeX Warning: Reference `fig:aendring' on page 8 undefined on input line 138.
+
+[8] <andring.pdf, id=100, 845.1575pt x 597.23125pt>
 File: andring.pdf Graphic file (type pdf)
  <use andring.pdf>
-Package pdftex.def Info: andring.pdf used on input line 146.
+Package pdftex.def Info: andring.pdf used on input line 142.
 (pdftex.def)             Requested size: 418.25368pt x 295.56203pt.
 
-(./LevPetMetode.tex [9 <./andring.pdf>] [10] [11] [12]) (./omData.tex [13])
-(./tabel1.tex
+(./LevPetMetode.tex [9 <./andring.pdf>]
+
+LaTeX Warning: Reference `eq:prodfunk_ED_01' on page 10 undefined on input line
+ 19.
+
+
+LaTeX Warning: Reference `eq:prodfunk_ED_01' on page 10 undefined on input line
+ 19.
+
+
+LaTeX Warning: Citation `levinsohn2003estimating' on page 10 undefined on input
+ line 21.
+
+
+LaTeX Warning: Citation `petrin2004production' on page 10 undefined on input li
+ne 23.
+
+[10]
+
+LaTeX Warning: Citation `levinsohn2003estimating' on page 11 undefined on input
+ line 36.
+
+
+LaTeX Warning: Reference `eq:LPProdFunkt02' on page 11 undefined on input line 
+47.
+
+[11]
+
+LaTeX Warning: Reference `eq:LPSaturatedProdFunction' on page 12 undefined on i
+nput line 52.
+
+
+LaTeX Warning: Reference `eq:LPSaturatedProdFunction' on page 12 undefined on i
+nput line 52.
+
+
+LaTeX Warning: Reference `eq:LPSaturatedProdFunction' on page 12 undefined on i
+nput line 55.
+
+
+LaTeX Warning: Reference `eq:LPfindenPhi' on page 12 undefined on input line 61
+.
+
+
+LaTeX Warning: Reference `eq:LPFindenOmega' on page 12 undefined on input line 
+80.
+
+
+LaTeX Warning: Reference `eq:markovOmega' on page 12 undefined on input line 80
+.
+
+
+LaTeX Warning: Reference `eq:LPOptimization' on page 12 undefined on input line
+ 80.
+
+
+LaTeX Warning: Reference `eq:LPOptimization' on page 12 undefined on input line
+ 83.
+
+[12]) (./omData.tex
+
+LaTeX Warning: Citation `dors2010baggrund' on page 13 undefined on input line 4
+.
+
+
+LaTeX Warning: Citation `dors2010baggrund' on page 13 undefined on input line 6
+.
+
+[13]
+
+LaTeX Warning: Reference `eq:LPProdFunkt02' on page 14 undefined on input line 
+15.
+
+) (./tabel1.tex
 Overfull \hbox (29.53203pt too wide) in paragraph at lines 5--26
  [][] 
  []
 
-) (./tabel2.tex) (./tabel3.tex) [14] [15] (./mainProd.bbl [16]) [17]
-(./mainProd.aux)
+) (./tabel2.tex) (./tabel3.tex) [14] [15]
+
+LaTeX Warning: Citation `melo2009meta' on page 16 undefined on input line 186.
+
+(./mainProd.bbl [16]) [17] (./mainProd.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1629,9 +1731,9 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 28890 strings out of 493089
- 598757 string characters out of 6134842
- 643752 words of memory out of 5000000
+ 28888 strings out of 493089
+ 598731 string characters out of 6134842
+ 643573 words of memory out of 5000000
  31852 multiletter control sequences out of 15000+600000
  22717 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1660,7 +1762,7 @@ fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/public/cm-super/sfti1200.pfb>
-Output written on mainProd.pdf (17 pages, 1050447 bytes).
+Output written on mainProd.pdf (17 pages, 1051073 bytes).
 PDF statistics:
  242 PDF objects out of 1000 (max. 8388607)
  173 compressed objects within 2 object streams
