@@ -1,6 +1,6 @@
-\subsection{Metode}
+\subsection{Estimation af produktionsfunktionen}
 For at kunne måle agglomerationens effekt for danske virksomheder estimerer vi en \emph{agglomerationselasticitet} ved at estimere en produktionsfunktion for virksomheder i private byerhverv. Derved er det muligt at vurdere indenfor hvilke områder agglomeration betyder mest relativt til andre brancher -- og i givet fald hvor meget. På den måde kan vi estimere, hvor meget agglomeration betyder for virksomhedernes værditilvækst, eller med andre ord: Hvor meget af den generede værditilvækst i danske virksomheder skyldes arbejdskraften efficiente densitet?
-\section{Estimation af produktionsfunktionen}
+
 For at kunne svare på dette har vi estimeret en produktionsfunktion for virksomhederne -- fordelt efter forskellige branchegrupperinger. Følgende afsnit forklarer metoden, vi har valgt til at bestemme effekten af agglomeration.
 
 Vi antager, at virksomhedernes produktion følger en Cobb-Douglas funktion. 
@@ -34,12 +34,9 @@ $\omega_t$.
 Levihnson og Petrin foreslår brug af mellemvarer som proxyvariabel for det ukontrollerede produktivitetsshock i $\omega_t$. Intuitionen bag dette resultat er, at for enhver given mængde af kapital i virksomheden, vil virksomheder med høj produktivitet skrue op for produktionen -- og dermed også for mellemvareforbruget, fx energi. Denne mellemregning er en måde at korrigere for effekten af $\omega_t$ på kapital, hvis vi kan påvise en markant positiv sammenhæng mellem $\omega_t$ og virksomhedernes forbrug af mellemvarer.
 
 Levinsohn og Petrin antager, at $m_t$ er en funktion af kapital og $\omega_t$, $m_t = m(k_t , \omega_t)$, og viser, at denne funktion under visse betingelser er monotont stigende i $\omega_t$ \cite[322-323]{levinsohn2003estimating}. Når dette er tilfældet, kan funktionen inverteres, og det uobserverede led $\omega_t$ kan udtrykkes som en funktion af to observerede størrelse, kapital og mellemvarer.
-\begin{equation}
-	\omega_t = \omega(k_t , m_t)
-	\label{eq:InverseOmega}
-\end{equation}
-
 \begin{align}
+	\omega_t &= \omega(k_t , m_t)
+	\label{eq:InverseOmega} \\
 	y_t &= \beta_l l_t + \beta_{ed} ED_t + \phi ( k_t , m_t)
 	\label{eq:LPProdFunkt02}\\
 	\phi ( k_t , m_t) &\equiv \beta_0 + \beta_k + \omega (k_t , m_t) \notag
