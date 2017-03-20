@@ -1,4 +1,5 @@
-\subsection{Kvalitetskorrigeret arbejdskraft}
+\subsection{Input til produktionsfunktionen}
+\textbf{Input til $l_t$ er Kvalitetskorrigeret arbejdskraft}
 Når virksomhedernes anvendelse af arbejdskraft indgår i produktionen, er det i et produktivitetsøjemed vigtigt at tage højde for, at medarbejderens produkvitet afhænger af især uddannelse og erfaring.
 
 Derfor har vi et kvalitetskorrigeret arbejdsindeks som arbejdsinput i produktionsfunktionen \cite[s. 5]{dors2010baggrund}. Denne tager højde for, hvor meget den enkelte virksomhed inddrager af arbejdskraft, så der tages højde for medarbejderens uddannelse og erfaring. Uddannelsesniveau og erfaring kombineres i Danmark Statistiks registre med indberettede regnskabsdata så der for den enkelte virksomhed kan skabes et kvalitetskorrigeret arbejdsinput.
@@ -9,7 +10,7 @@ Kvalitet følger DØRS definition og udregnes som \cite[s. 5]{dors2010baggrund}:
 	L_{i0t} + \sum_{f=1}^{F-1} \frac{\bar{w}_{fgt}}{\bar{w}_{0gt}} 
 	L_{ift}
 \end{equation}
-$f$ er her en gruppering af beskæftigelsen efter kvalitet. Fx er $f=0$ en ufaglært medarbejder med under 5 års erfaring, $f=1$ er en ufaglært medarbejder med 5-10 års erfaring osv. CHECK!!!!!!
+$f$ er her en gruppering af beskæftigelsen efter kvalitet. Fx er $f=0$ en ufaglært medarbejder med lav erfaring, $f=1$ er en ufaglært medarbejder med 5-10 års erfaring osv. CHECK!!!!!!
 $L_{ift}$ er så antallet af årsværk i virksomheder med kvalitet $f$. Dermed er det muligt at korrigere for kvaliteten af arbejdskraften, så en times præsteret nu tæller forskelligt alt efter produktivteten.
 
 I produktionsfunktionen fra (\ref{eq:LPProdFunkt02}) indgår den kvalitetskorrigerede arbejdskraft som $l_{it} = \log(L_{it})$.  
@@ -21,8 +22,8 @@ Virksomhederne er kun indenfor branche i private byerhverv, hvilket vil sige bra
 
 Der er lavet visse restrektioner på registrene. Blandt andet er virksomheder med færre end fem ansatte. 
 
-\paragraph{Estimation af kapitalapparat} 
-I estimationen af kapitalapparatet har vi anvendt dit og dat som du bør skrive mere om.
+\paragraph{Kapitalapparat} 
+Kapitalinput er virksomhedernes materielle og immatrielle aktiver fra regnskabsstatistikken, hvorefter den deflateres. Denne deflatering sker ved hjælp af deflateren for kapital fra Danmarks Statistiks nationalregnskab for de relevante år\footnote{Fordelt på branche??}.
 
 \begin{itemize}
 	\item Spørg Lill om metoden
