@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.14)  20 MAR 2017 15:16
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.17)  20 MAR 2017 14:44
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1400,7 +1404,11 @@ LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 
+<<<<<<< Updated upstream
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+=======
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+>>>>>>> Stashed changes
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count188
 \scratchdimen=\dimen315
@@ -1604,7 +1612,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ex [2]) [3] [4]
 [5] [6] <del1.pdf, id=32, 845.1575pt x 597.23125pt>
 File: del1.pdf Graphic file (type pdf)
+<<<<<<< Updated upstream
  <use del1.pdf>
+=======
+
+<use del1.pdf>
+>>>>>>> Stashed changes
 Package pdftex.def Info: del1.pdf used on input line 105.
 (pdftex.def)             Requested size: 204.9466pt x 144.82384pt.
 
@@ -1616,7 +1629,15 @@ Package pdftex.def Info: del2.pdf used on input line 110.
  [7 <./del1.pdf> <./del2.pdf>]
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 131.
 
+<<<<<<< Updated upstream
  (c:/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
+=======
+[7 <./del1.pdf> <./del2.pdf>]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 131.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
+>>>>>>> Stashed changes
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [8] [9]
 <andring.pdf, id=103, 845.1575pt x 597.23125pt>
