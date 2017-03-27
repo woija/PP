@@ -3,11 +3,25 @@ For at kunne måle agglomerationens effekt for danske virksomheder estimerer vi 
 \section{Estimation af produktionsfunktionen}
 For at kunne svare på dette har vi estimeret en produktionsfunktion for virksomhederne -- fordelt efter forskellige branchegrupperinger. Følgende afsnit forklarer metoden, vi har valgt til at bestemme effekten af agglomeration.
 
-Vi antager, at virksomhedernes produktion følger en Cobb-Douglas funktion. 
+Vi antager, at virksomhedernes produktionsteknologi følger en Cobb-Douglas funktion med to produktionsinput, kapital og arbejdskraft. Derudover påvirkes virksomhedernes produktionsteknologi af agglomeration, målt ved effektiv tæthed. Agglomerationen er Hicks neutral, hvilket betyder, at den påvirker kapitalens og arbejdskrafts marginale produktivitet relativt, så forholdet mellem dem er uændret.
+\begin{equation}
+Y_{it} = F(K_{it},L_{it})g(ED_{it}) 
+\end{equation}
+Vi antager, at virksomhederne ikke har mulighed for at påvirke agglomerationen og tager agglomeration forgivet.  Virksomhederne profitmaksimer derfor kun mht. kapital og arbejdskraft
 \begin{equation}
 	Y_{it} = A_t K_{it}^{\beta_k} L_{it}^{\beta_l} 
 	ED_{it}^{\beta_{ed}}  
 \end{equation}
+Så tager vi marginal produktet af (3) får vi 
+\begin{equation}
+\frac{\partial Y_{it}}{\partial K_{it}} = \beta_k A_t K_{it}^{\beta_k-1} L_{it}^{\beta_l} 
+ED_{it}^{\beta_{ed}}=r_{it}
+\end{equation}
+\begin{equation}
+\frac{\partial Y_{it}}{\partial L_{it}} = \beta_l A_t K_{it}^{\beta_k} L_{it}^{\beta_l-1} 
+ED_{it}^{\beta_{ed}} = w_{it}
+\end{equation}
+
 $ED_{it}$ er arbejdskraftens \emph{efficiente densitet}, der for den enkelte virksomhed indgår som en eksternalitet.
 Transformeret til logaritmisk form er virksomhedens produktion derfor givet ved følgende relation:
 \begin{equation}
