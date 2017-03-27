@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.14)  20 MAR 2017 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.14)  23 MAR 2017 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1387,18 +1387,18 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 )) (./mainProd.aux)
 \openout1 = `mainProd.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1579,12 +1579,12 @@ File: siunitx-abbreviations.cfg 2016/09/02 v2.6s siunitx: Abbreviated units
 
 ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count194
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1605,16 +1605,16 @@ ex [2]) [3] [4]
 [5] [6] <del1.pdf, id=32, 845.1575pt x 597.23125pt>
 File: del1.pdf Graphic file (type pdf)
  <use del1.pdf>
-Package pdftex.def Info: del1.pdf used on input line 105.
+Package pdftex.def Info: del1.pdf used on input line 109.
 (pdftex.def)             Requested size: 204.9466pt x 144.82384pt.
 
 <del2.pdf, id=33, 845.1575pt x 597.23125pt>
 File: del2.pdf Graphic file (type pdf)
  <use del2.pdf>
-Package pdftex.def Info: del2.pdf used on input line 110.
+Package pdftex.def Info: del2.pdf used on input line 114.
 (pdftex.def)             Requested size: 204.9466pt x 144.82384pt.
  [7 <./del1.pdf> <./del2.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 131.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 135.
 
  (c:/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1622,11 +1622,11 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 <andring.pdf, id=103, 845.1575pt x 597.23125pt>
 File: andring.pdf Graphic file (type pdf)
  <use andring.pdf>
-Package pdftex.def Info: andring.pdf used on input line 141.
+Package pdftex.def Info: andring.pdf used on input line 145.
 (pdftex.def)             Requested size: 418.25368pt x 295.56203pt.
 
-(./LevPetMetode.tex [10 <./andring.pdf>] [11] [12] [13]) (./omData.tex [14])
-[15] [16] (./tab1.tex
+(./LevPetMetode.tex [10 <./andring.pdf>] [11] [12] [13]) (./omData.tex [14]
+[15]) [16] (./tab1.tex
 Overfull \hbox (6.6558pt too wide) in paragraph at lines 5--24
  [][] 
  []
@@ -1639,10 +1639,10 @@ Overfull \hbox (25.38144pt too wide) in paragraph at lines 27--28
 ) (./tab4.tex) [17] [18] [19] [20] [21] (./mainProd.bbl [22]) [23]
 (./mainProd.aux) ) 
 Here is how much of TeX's memory you used:
- 29606 strings out of 493013
- 605295 string characters out of 6136993
- 657959 words of memory out of 5000000
- 32627 multiletter control sequences out of 15000+600000
+ 29610 strings out of 493013
+ 605412 string characters out of 6136993
+ 657006 words of memory out of 5000000
+ 32631 multiletter control sequences out of 15000+600000
  21951 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,12n,94p,10382b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1665,7 +1665,7 @@ super/sfrm0800.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm
 c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive
 /2016/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2016/texm
 f-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on mainProd.pdf (23 pages, 1022389 bytes).
+Output written on mainProd.pdf (23 pages, 1024065 bytes).
 PDF statistics:
  249 PDF objects out of 1000 (max. 8388607)
  177 compressed objects within 2 object streams

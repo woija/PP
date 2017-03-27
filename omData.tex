@@ -1,35 +1,49 @@
-\subsection{Input til produktionsfunktionen}
-\textbf{Input til $l_t$ er Kvalitetskorrigeret arbejdskraft}
-Når virksomhedernes anvendelse af arbejdskraft indgår i produktionen, er det i et produktivitetsøjemed vigtigt at tage højde for, at medarbejderens produkvitet afhænger af især uddannelse og erfaring.
+\subsection{Beskrivende statistik}
+Vi har benyttet Danmarks Statistiks virksomhedsregister som baggrund for estimeringen. Data tilgængeligt for os er i årene 2008 -- 2013, hvori vi har 45.751 observationer fordelt på 17.251 cvr-numre. Dermed er datasættet ikke et fuldt panel, jf. tabel \ref{tab:SummaryStatistics}.
 
-Derfor har vi et kvalitetskorrigeret arbejdsindeks som arbejdsinput i produktionsfunktionen \cite[s. 5]{dors2010baggrund}. Denne tager højde for, hvor meget den enkelte virksomhed inddrager af arbejdskraft, så der tages højde for medarbejderens uddannelse og erfaring. Uddannelsesniveau og erfaring kombineres i Danmark Statistiks registre med indberettede regnskabsdata så der for den enkelte virksomhed kan skabes et kvalitetskorrigeret arbejdsinput.
-
-Kvalitet følger DØRS definition og udregnes som \cite[s. 5]{dors2010baggrund}:
-\begin{equation}
-	\bar{L_{it}} = 
-	L_{i0t} + \sum_{f=1}^{F-1} \frac{\bar{w}_{fgt}}{\bar{w}_{0gt}} 
-	L_{ift}
-\end{equation}
-$f$ er her en gruppering af beskæftigelsen efter kvalitet. Fx er $f=0$ en ufaglært medarbejder med lav erfaring, $f=1$ er en ufaglært medarbejder med 5-10 års erfaring osv. CHECK!!!!!!
-$L_{ift}$ er så antallet af årsværk i virksomheder med kvalitet $f$. Dermed er det muligt at korrigere for kvaliteten af arbejdskraften, så en times præsteret nu tæller forskelligt alt efter produktivteten.
-
-I produktionsfunktionen fra (\ref{eq:LPProdFunkt02}) indgår den kvalitetskorrigerede arbejdskraft som $l_{it} = \log(L_{it})$.  
-
-\section{Beskrivelse af data}
-Vi har benyttet Danmarks Statistiks virksomhedsregister som baggrund for estimeringen. Data tilgængeligt for os er i årene 2008 -- 2013, hvori vi har 45.751 observationer fordelt på ca. 17.000 cvr numre. Datasættet er ikke et fuldt panel. For en beskrivelse af agglomerationsvariablen, jf. kapital ???.
+\begin{table}
+	\caption{Tabel for indledning af noget halløj}
+	\label{tab:SummaryStatistics}
+	\centering
+\begin{tabular}{lrrr}
+	\toprule
+Her & skal & der stå noget \\
+	\bottomrule
+\end{tabular}
+\end{table}
 
 Virksomhederne er kun indenfor branche i private byerhverv, hvilket vil sige branchegrupperne Industri, Bygge og anlæg, Transport, Hoteller og restauranter, Handel, Information og Kommunikation, Videnservice og Operationel service.
 
 Der er lavet visse restrektioner på registrene. Blandt andet er virksomheder med færre end fem ansatte. 
 
-\paragraph{Kapitalapparat} 
-Kapitalinput er virksomhedernes materielle og immatrielle aktiver fra regnskabsstatistikken, hvorefter den deflateres. Denne deflatering sker ved hjælp af deflateren for kapital fra Danmarks Statistiks nationalregnskab for de relevante år\footnote{Fordelt på branche??}.
+\subsection{Input til produktionsfunktionen}
+For at kunne udrede virksomhedernes produktivitetsniveau har vi estimeret deres respektive produktionsniveau. I logaritmisk omskrivning tager forklaringerne følgende form.
+\begin{gather}
+	y_{it} = \alpha_t + \beta_k k_{it} + \beta_l l_{it} + 
+	+ \beta_{ed} ed_{it} + \varepsilon_{it}
+	\label{eq:ProduktionsFunktionOmData}
+\end{gather}
+Metoden til udregning af (\ref{eq:ProduktionsFunktionOmData}) beskrives i afsnit \ref{sec:Metodeafsnit}, og variable $ed_{it}$ beskrives nærmere i afsnit \ref{sec:MaalingEDparameterMetode}. I det følgende kapital og arbejdskraft, respektivt $k$ og $l$, beskrives.
+\paragraph{Kapitalapparatet}
+Kapitalen for virksomhederne er givet som en sum af de matrielle og immatrielle aktiver virksomheden har angivet til skat for årene 2008 til og med 2013. Helt konkret findes denne i tabellen \emph{FIRE}. Virksomhedens kapitalapparat deflateres ved nationalregnskabets indeks for prisudvikling på kapital%
+\footnote{Denne deflator findes i Statistikbanken, tabel [SPØRG LIA]}.
+\paragraph{Arbejdskraft}
+Ved estimering af en produktionsfunktion som (\ref{eq:ProduktionsFunktionOmData}) er det overvejende sandsynligt, at der er et endogenitetsproblem. I forhold til arbejdskraft opstår der endogenitet, hvis der er sammenhæng mellem produktivitet, der gennem OLS opfanges af fejlleddet $\varepsilon_{it}$, og arbejdskraft. Dette sker, hvis der ikke tages højde for, at medarbejdere med meget erfaring er mere produktive end deres mindre erfarne kolleger. Det samme gør sig gældende for medarbejdernes uddannelsesniveau.
+%
 
-\begin{itemize}
-	\item Spørg Lill om metoden
-\end{itemize}
+For at imødekomme endogenitetsproblemer gennem forskelle i arbejdskraften kvalitetsjusteres $l_{it}$ i (\ref{eq:ProduktionsFunktionOmData}). Denne består at gruppere virksomhedernes arbejdskraftinput efter erfaring og uddannelses. Der er i alt fire erfaringsgrupper og 25 uddannelsesgrupper. Det relevante indeks er givet ved (\ref{eq:KvalitetsjusteretArbejdskraft}).
+\begin{equation}
+	\bar{L}_{it} = 
+	L_{i0t} + \sum_{f=1}^{F-1} \frac{\bar{w}_{fgt}}{\bar{w}_{0gt}} 
+	L_{ift}
+	\label{eq:KvalitetsjusteretArbejdskraft}
+\end{equation}
+Her er $f$ en gruppering af beskæftigelsen efter kvalitet. Fx er $f=0$ en ufaglært medarbejder med lav erfaring, $f=1$ er en ufaglært medarbejder med 5-9 års erfaring etc. I alt er lønnen ti l
+$L_{ift}$ er så antallet af årsværk i virksomheder med kvalitet $f$. Dermed er det muligt at korrigere for kvaliteten af arbejdskraften, så en times præsteret nu tæller forskelligt alt efter produktivteten.
 
-\paragraph{Antagelser for konsistent estimering af ed}
+I produktionsfunktionen fra (\ref{eq:LPProdFunkt02}) indgår den kvalitetskorrigerede arbejdskraft som $l_{it} = \log(L_{it})$.  
+
+
 %%Det jeg vil skrive nu
 % - Bootstrapping
 % - Bootstrapping
