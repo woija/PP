@@ -7,12 +7,12 @@ Vi antager, at virksomhedernes produktionsteknologi følger en Cobb-Douglas funk
 \begin{equation}
 Y_{it} = F(K_{it},L_{it})g(ED_{it}) 
 \end{equation}
-Vi antager, at virksomhederne ikke har mulighed for at påvirke agglomerationen og tager agglomeration forgivet.  Virksomhederne profitmaksimer derfor kun mht. kapital og arbejdskraft
+Yderligere antager vi, at virksomhederne ikke har mulighed for at påvirke agglomerationen alene, og tager agglomeration for givet.  Virksomhederne profitmaksimer derfor kun mht. kapital og arbejdskraft
 \begin{equation}
 	Y_{it} = A_t K_{it}^{\beta_k} L_{it}^{\beta_l} 
 	ED_{it}^{\beta_{ed}}  
 \end{equation}
-Så tager vi marginal produktet af (3) får vi 
+Så finder vi marginal produktet af (3) mht. input, får vi 
 \begin{equation}
 \frac{\partial Y_{it}}{\partial K_{it}} = \beta_k A_t K_{it}^{\beta_k-1} L_{it}^{\beta_l} 
 ED_{it}^{\beta_{ed}}=r_{it}
@@ -21,9 +21,9 @@ ED_{it}^{\beta_{ed}}=r_{it}
 \frac{\partial Y_{it}}{\partial L_{it}} = \beta_l A_t K_{it}^{\beta_k} L_{it}^{\beta_l-1} 
 ED_{it}^{\beta_{ed}} = w_{it}
 \end{equation}
+ I vores valg af CB-funktionen adskiller vores metode sig her fra \cite{graham2007agglomeration}. Graham vælger at benytte translog produktionsfunktionen, som er mere general formuleret. Generaliteten betyder at translog formuleringen er mere fleksibel ift. perfekt substitution i mellem input faktorerne og perfekt konkurrence på input-markedet, som er implicitte antagelse i CB-funktionen \cite{pavelescu2011some}. Det dog midlertidigt nemmere at estimere og fortolke CB-funktionen, hvilket gør at vi valgt benytte denne(MÅSKE EN FODNOTE OMKRING VLEV).Transformeret til logaritmisk form er virksomhedens produktion derfor givet ved nedenstående relation.
 
-$ED_{it}$ er arbejdskraftens \emph{efficiente densitet}, der for den enkelte virksomhed indgår som en eksternalitet.
-Transformeret til logaritmisk form er virksomhedens produktion derfor givet ved følgende relation:
+
 \begin{equation}
 	y_{it} = \alpha_t + \beta_l l_{it} + \beta_{ed} ed_{it} + \beta_{k} k_{it} + \epsilon_{it}
 	\label{eq:prodfunk_ED_01}
